@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Title -->
+
+    <!-- SOS Button -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_title_bg"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Suraksha"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sosButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\uD83D\uDEA8 Send SOS"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_red"
+        android:layout_marginTop="20dp"
+        android:padding="14dp" />
+
+    <!-- Share Location Button -->
+    <Button
+        android:id="@+id/shareLocationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📍 Share Live Location"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_purple"
+        android:layout_marginTop="12dp"
+        android:padding="14dp" />
+
+    <!-- Play Alarm Button -->
+    <Button
+        android:id="@+id/alarmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔊 Play Alarm"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_orange"
+        android:layout_marginTop="12dp"
+        android:padding="14dp" />
+
+    <!-- Call Emergency Contact Button -->
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📞 Call Emergency Contact"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_green"
+        android:layout_marginTop="12dp"
+        android:padding="14dp" />
+
+    <!-- Add Contact Button -->
+    <Button
+        android:id="@+id/addContactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="➕ Add Emergency Contact"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_blue"
+        android:layout_marginTop="12dp"
+        android:padding="14dp" />
+
+    <!-- Show Contacts Button -->
+    <Button
+        android:id="@+id/showContactsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📜 Show Contacts"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg_gray"
+        android:layout_marginTop="12dp"
+        android:padding="14dp" />
+
+</LinearLayout>
